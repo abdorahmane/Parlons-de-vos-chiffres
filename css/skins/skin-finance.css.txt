@@ -1,0 +1,134 @@
+/* Général */
+:racine {
+  --border-radius: 0;
+  --border-radius2x: 0;
+  --par défaut : #777 ;
+}
+/* Couleurs de peau */
+:racine {
+  --primaire : #013160 ;
+  --primary-100: #012447;
+  --primary-200: #011e3a;
+  --primary-300: #00172e;
+  --primaire--100 : #013e79 ;
+  --primaire--200 : #014486 ;
+  --primaire--300 : #024b92 ;
+  --primary-rgba-0: rgba(1, 49, 96, 0);
+  --primary-rgba-10: rgba(1, 49, 96, 0.1);
+  --primary-rgba-20: rgba(1, 49, 96, 0.2);
+  --primary-rgba-30: rgba(1, 49, 96, 0.3);
+  --primary-rgba-40: rgba(1, 49, 96, 0.4);
+  --primary-rgba-50: rgba(1, 49, 96, 0.5);
+  --primary-rgba-60: rgba(1, 49, 96, 0.6);
+  --primary-rgba-70: rgba(1, 49, 96, 0.7);
+  --primary-rgba-80: rgba(1, 49, 96, 0.8);
+  --primary-rgba-90: rgba(1, 49, 96, 0.9);
+  --secondaire : #e36159 ;
+  --secondaire-100 : #df4c43 ;
+  --secondary-200: #dd4238;
+  --secondary-300: #dc372d;
+  --secondaire--100: #e7766f;
+  --secondaire--200: #e9807a;
+  --secondaire--300: #ea8b85;
+  --secondary-rgba-0: rgba(227, 97, 89, 0);
+  --secondary-rgba-10: rgba(227, 97, 89, 0.1);
+  --secondary-rgba-20: rgba(227, 97, 89, 0.2);
+  --secondary-rgba-30: rgba(227, 97, 89, 0.3);
+  --secondary-rgba-40: rgba(227, 97, 89, 0.4);
+  --secondary-rgba-50: rgba(227, 97, 89, 0.5);
+  --secondary-rgba-60: rgba(227, 97, 89, 0.6);
+  --secondary-rgba-70: rgba(227, 97, 89, 0.7);
+  --secondary-rgba-80: rgba(227, 97, 89, 0.8);
+  --secondary-rgba-90: rgba(227, 97, 89, 0.9);
+  --tertiaire : #2baab1 ;
+  --tertiaire-100 : #26969c ;
+  --tertiaire-200 : #248c92 ;
+  --tertiaire-300 : #218388 ;
+  --tertiaire--100: #30bec6;
+  --tertiaire--200: #34c6ce;
+  --tertiaire--300 : #3fc9d0 ;
+  --tertiaire-rgba-0 : rgba(43, 170, 177, 0);
+  --tertiaire-rgba-10 : rgba(43, 170, 177, 0,1);
+  --tertiaire-rgba-20 : rgba(43, 170, 177, 0,2);
+  --tertiaire-rgba-30 : rgba(43, 170, 177, 0,3);
+  --tertiaire-rgba-40 : rgba(43, 170, 177, 0,4);
+  --tertiaire-rgba-50 : rgba(43, 170, 177, 0,5);
+  --tertiaire-rgba-60 : rgba(43, 170, 177, 0,6);
+  --tertiaire-rgba-70 : rgba(43, 170, 177, 0,7);
+  --tertiaire-rgba-80 : rgba(43, 170, 177, 0,8);
+  --tertiaire-rgba-90 : rgba(43, 170, 177, 0,9);
+  --quaternaire : #383f48 ;
+  --quaternaire-100 : #2d323a ;
+  --quaternaire-200 : #272c32 ;
+  --quaternaire-300 : #22262b ;
+  --quaternaire--100 : #434c56 ;
+  --quaternaire--200 : #49525e ;
+  --quaternaire--300 : #4e5865 ;
+  --quaternaire-rgba-0: rgba(56, 63, 72, 0);
+  --quaternaire-rgba-10 : rgba(56, 63, 72, 0,1);
+  --quaternaire-rgba-20 : rgba(56, 63, 72, 0,2);
+  --quaternaire-rgba-30 : rgba(56, 63, 72, 0,3);
+  --quaternaire-rgba-40 : rgba(56, 63, 72, 0,4);
+  --quaternaire-rgba-50 : rgba(56, 63, 72, 0,5);
+  --quaternaire-rgba-60 : rgba(56, 63, 72, 0,6);
+  --quaternaire-rgba-70 : rgba(56, 63, 72, 0,7) ;
+  --quaternaire-rgba-80 : rgba(56, 63, 72, 0,8);
+  --quaternaire-rgba-90 : rgba(56, 63, 72, 0,9);
+  --dark: #212529;
+  --dark-100: #16181b;
+  --dark-200: #101214;
+  --dark-300: #0a0c0d;
+  --dark--100: #2c3237;
+  --dark--200: #32383e;
+  --dark--300: #383f45;
+  --dark-rgba-0: rgba(33, 37, 41, 0);
+  --dark-rgba-10: rgba(33, 37, 41, 0.1);
+  --dark-rgba-20: rgba(33, 37, 41, 0.2);
+  --dark-rgba-30: rgba(33, 37, 41, 0.3);
+  --dark-rgba-40: rgba(33, 37, 41, 0.4);
+  --dark-rgba-50: rgba(33, 37, 41, 0.5);
+  --dark-rgba-60: rgba(33, 37, 41, 0.6);
+  --dark-rgba-70: rgba(33, 37, 41, 0.7);
+  --dark-rgba-80: rgba(33, 37, 41, 0.8);
+  --dark-rgba-90: rgba(33, 37, 41, 0.9);
+  --light: #FFF;
+  --light-100: #f2f2f2;
+  --light-200: #ececec;
+  --light-300: #e6e6e6;
+  --light--100: #ffffff;
+  --light--200: #ffffff;
+  --light--300: #ffffff;
+  --light-rgba-0: rgba(255, 255, 255, 0);
+  --light-rgba-10: rgba(255, 255, 255, 0.1);
+  --light-rgba-20: rgba(255, 255, 255, 0.2);
+  --light-rgba-30: rgba(255, 255, 255, 0.3);
+  --light-rgba-40: rgba(255, 255, 255, 0.4);
+  --light-rgba-50: rgba(255, 255, 255, 0.5);
+  --light-rgba-60: rgba(255, 255, 255, 0.6);
+  --light-rgba-70: rgba(255, 255, 255, 0.7);
+  --light-rgba-80: rgba(255, 255, 255, 0.8);
+  --light-rgba-90: rgba(255, 255, 255, 0.9);
+}
+/* Couleurs de peau - Inverse */
+:racine {
+  --primary-inverse: #FFF;
+  --inverse-secondaire : #FFF ;
+  --tertiaire-inverse : #FFF ;
+  --quaternaire-inverse : #FFF ;
+  --dark-inverse: #FFF;
+  --light-inverse: #777;
+}
+/* Couleurs grises */
+:racine {
+  --gris : #969696 ;
+  --grey-100: #f4f4f4;
+  --grey-200: #eaeaea;
+  --grey-300: #e5e5e5;
+  --grey-400: #e0e0e0;
+  --grey-500: #dbdbdb;
+  --grey-600: #cecece;
+  --grey-700: #c1c1c1;
+  --grey-800: #a8a8a8;
+  --grey-900: #8e8e8e;
+  --grey-1000: #757575;
+}
