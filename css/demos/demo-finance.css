@@ -1,0 +1,91 @@
+.taille-de-police-personnalisée-1 {
+    taille de police : 12,8 px ;
+    taille de police : 0,8 rem ;
+}
+
+@media (largeur maximale : 767 px) {
+    .custom-mobile-remove-divider-left-border {
+        bordure gauche : 0 ;
+    }
+}
+
+/* En-tête */
+#header .header-nav-main nav > ul > li > a {
+    taille de police : 16 px ;
+}
+
+/* Parallaxe*/
+.custom-parallax-bg-pos-gauche {
+    background-position-x: 0% !important;
+}
+
+.rembourrage-moyen-de-parallaxe-personnalisé {
+    rembourrage : 128px 0 !important;
+}
+
+.custom-parallax-big-padding {
+    rembourrage : 25vh 0 !important;
+}
+
+/* Superposition */
+.custom-overlay-opacity-95:avant {
+    opacité : 0,95 !important;
+}
+
+/* Processus */
+.process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg chemin, .process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg polyligne, .process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg ligne {
+    accident vasculaire cérébral : #FFF !important;
+}
+
+.process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg[data-filename="people.svg"] chemin, .process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg[data-filename="people.svg"] polyligne, .process.custom-process .process-step:hover .process-step-circle .process-step-circle-content svg[data-filename="people.svg"] ligne {
+    AVC : hériter !important ;
+    remplir : #FFF !important;
+}
+
+.processus.processus-personnalisé .étape-processus .étape-processus-cercle {
+    largeur : 115px ;
+    hauteur : 115px ;
+}
+
+@media (largeur min : 992 px) {
+    .processus .étape-processus:avant {
+        couleur d'arrière-plan : #d6dde5 ;
+    }
+}
+
+/* Témoignage */
+.custom-testimonial-style-1.testimonial-style-2 .testimonial-author > img {
+    largeur maximale : 120 px ;
+    hauteur maximale : aucune ;
+    hauteur : auto ;
+    -o-object-fit : couverture ;
+       objet-ajustement : couverture ;
+}
+
+.custom-testimonial-style-1.testimonial-with-quotes blockquote:before {
+    haut : -15px ;
+}
+
+/* Barres de progression */
+.barres-de-progression-personnalisées-style-1 .progress {
+    couleur d'arrière-plan : rgba(255, 255, 255, 0,3) ;
+}
+
+/* Pied de page */
+#pied de page p, #pied de page span, #pied de page li, #pied de page a:not(.btn):not(.no-footer-css) {
+    couleur : #888888;
+}
+
+#pied de page p:hover, #pied de page span:hover, #pied de page li:hover, #pied de page a:not(.btn):not(.no-footer-css):hover {
+    couleur : #212121;
+}
+
+#footer .footer-copyright p {
+    couleur : #888888;
+}
+
+/* Peau */
+/* Pied de page */
+#pied de page p:hover, #pied de page span:hover, #pied de page li:hover, #pied de page a:not(.btn):not(.no-footer-css):hover {
+    couleur : var(--primary);
+}
